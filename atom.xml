@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Music Therapy Service]]></title>
   <link href="http://nancymusictherapy.github.io/atom.xml" rel="self"/>
   <link href="http://nancymusictherapy.github.io/"/>
-  <updated>2014-02-27T22:50:12-06:00</updated>
+  <updated>2014-02-27T23:22:07-06:00</updated>
   <id>http://nancymusictherapy.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Nancy Leung]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Announcements]]></title>
+    <link href="http://nancymusictherapy.github.io/blog/2014/02/27/update/"/>
+    <updated>2014-02-27T00:00:00-06:00</updated>
+    <id>http://nancymusictherapy.github.io/blog/2014/02/27/update</id>
+    <content type="html"><![CDATA[<p><a href="http://musictherapyservice.ca">My new site.</a></p>
+
+<p>Testing</p>
+]]></content>
+  </entry>
   
 </feed>
