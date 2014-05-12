@@ -37,16 +37,8 @@
 
 <body >
   <header role="banner" id="sidebar">
-    <!-- Logo -->
-<!-- <aside id="logo" class="clearfix"> -->
-  <!-- <div class="clearfix"> -->
-    <!-- <a href="/">
-      Music Therapy Service
-    </a> -->
-  <!-- </div> -->
-<!-- </aside> -->
-
-<ul id="menu">
+    <nav>
+  <ul id="menu">
 
   <li class="title">
     <h1 id="title"><a href="/">Music Therapy Service</a></h1>
@@ -69,12 +61,21 @@
   </li></div>
   <div class="block purple8"><li class="link"><a href="/contact/">contact us</a>
   </li></div>
+</ul>
 
+  <select class="responsive-menu" onchange="location = this.options[this.selectedIndex].value"> 
+    <option value="" selected="selected">Menu:</option> 
+    <option value="/musictherapy"><a href="/musictherapy">music therapy</option> </a>
+    <option value="/whoweare">about us</option> 
+    <option value="/musictherapists">music therapists</option> 
+    <option value="/sessions">the process</option> 
+    <option value="/interventions">music therapy interventions</option> 
+    <option value="/clients">who can benefit</option> 
+    <option value="/services">our services</option> 
+    <option value="/contact">contact us</option> 
+  </select> 
 
-
-
-
-
+</nav>
   </header>
   <section id="main">
     <div id="contentContainer">
@@ -101,7 +102,6 @@
   
   </div>
 </article>
-
 </div>
 
     <nav role="navigation" id="pagination">
